@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sms" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim notif" />
+
+    <Button
+        android:id="@+id/btn_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech" />
+
+    <Button
+        android:id="@+id/btn_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text other app" />
+
+    <Button
+        android:id="@+id/btn_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="audio manager" />
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wifi" />
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alarm" />
+
+
+</LinearLayout>
